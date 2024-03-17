@@ -1,0 +1,49 @@
+.main_container{
+    width: 100%;
+    .produtos_options{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 60px;
+            button{
+                color: white;
+                background-color: transparent;
+                border: none;
+                border: 2px solid white;
+                padding: 20px;
+                border-radius: 20%;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+    }
+    .produtos_itens {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        table{
+            color: white;
+            width: 80%;
+            border: 1px solid white;
+            th{
+                background-color: white;
+                color: black;
+            }
+            td{
+                align-self: center;
+                justify-self: center;
+                background-color: grey;
+            }
+        }
+    }
+    tr,td{
+        text-align: center;
+    }
+}
